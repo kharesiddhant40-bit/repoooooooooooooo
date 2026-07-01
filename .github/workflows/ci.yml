@@ -1,9 +1,9 @@
 name: Wrong CI/CD Pipeline
 
 on:
-  pull_request:
+  push:
     branches:
-      - production
+      - main   # Change to your branch name if different
 
 jobs:
   deploy:
